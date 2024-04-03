@@ -1,0 +1,22 @@
+[package]
+name = "hashgen"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blake3 = "1.5.0"
+clap = {version="4.5.2", features=["derive"]}
+fs = "0.0.5"
+indicatif = {version="0.17.8", features=["rayon"]}
+peak_alloc = "0.2.1"
+rand = "0.8.5"
+rayon = "1.9.0"
+threadpool = "1.8.1"
+
+
+[[bin]]
+edition = "2021"
+name = "hashgen"
+path = "src/main.rs"
