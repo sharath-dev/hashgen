@@ -1,13 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/C5s9grq-)
-### CS553 Cloud Computing Assignment 4 Repo
-**Illinois Institute of Technology**  
-
-**Students**:  
-* Sharath Devasahayam (fsharathdevasahayam@hawk.iit.edu) 
-
 ### Directory Contents
-This directory contains the final report named as ```hw4-report.pdf``` which contains all results in a table format. It contains the summarized version of the findings in terms of scalability, concurrency, and performance. 
-
 The source code is located in the ```src``` directory.
 * ```main.rs``` is the script for the hashgen program. 
 
